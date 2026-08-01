@@ -47,6 +47,7 @@ Generates personalized recommendations to improve resume quality and ATS compati
 
 
 ⚙️ System Workflow
+
 User uploads a resume in PDF format.
 User pastes the desired job description.
 Resume text is extracted using PyPDF2.
@@ -56,6 +57,7 @@ User views the analysis report.
 User downloads the report as a professional PDF.
 
 🏗️ System Architecture
+
 Frontend
 Streamlit
 Backend
@@ -68,6 +70,7 @@ PyPDF2
 ReportLab
 
 🧪 Algorithms & Logic Used
+
 PDF text extraction using PyPDF2
 Prompt Engineering for AI analysis
 AI-assisted resume evaluation
@@ -91,6 +94,7 @@ Resume Strengths
 Improvement Suggestions
 
 📊 Result Analysis
+
 Successfully extracts resume content from PDF documents
 Accurately compares resumes with job descriptions
 Generates ATS-style compatibility score
@@ -99,6 +103,7 @@ Provides AI-generated recommendations for resume enhancement
 Produces downloadable professional PDF reports
 
 🚀 How to Run the Project
+
 Prerequisites
 Python 3.10 or above
 OpenRouter API Key
@@ -124,6 +129,7 @@ streamlit run app.py
 Open the local Streamlit URL in your browser.
 
 🔮 Future Enhancements
+
 Support for DOCX resume uploads
 Resume keyword optimization recommendations
 Interactive skill comparison charts
