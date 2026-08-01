@@ -1,4 +1,5 @@
 🎯 ResumeSense AI – AI Resume Analyzer
+
 📌 Project Overview
 
 ResumeSense AI is an AI-powered web application designed to help users evaluate and optimize their resumes against job descriptions. The application analyzes uploaded resumes using Artificial Intelligence and provides ATS-style feedback, including matching skills, missing keywords, strengths, and improvement suggestions.
@@ -6,6 +7,7 @@ ResumeSense AI is an AI-powered web application designed to help users evaluate 
 The system assists job seekers in improving their resumes for better compatibility with Applicant Tracking Systems (ATS) and enhances their chances of securing interviews by providing actionable recommendations.
 
 🎯 Objectives
+
 To analyze resumes against job descriptions using Artificial Intelligence
 To provide ATS-style resume evaluation
 To identify matching and missing skills
@@ -21,6 +23,7 @@ View Missing Skills
 View Resume Strengths
 Receive AI-generated improvement suggestions
 Download professional PDF analysis report
+
 🤖 AI Features
 ATS Resume Analysis
 
@@ -42,6 +45,7 @@ AI Suggestions
 
 Generates personalized recommendations to improve resume quality and ATS compatibility.
 
+
 ⚙️ System Workflow
 User uploads a resume in PDF format.
 User pastes the desired job description.
@@ -50,6 +54,7 @@ AI model analyzes the resume against the job description.
 ATS score and detailed analysis are generated.
 User views the analysis report.
 User downloads the report as a professional PDF.
+
 🏗️ System Architecture
 Frontend
 Streamlit
@@ -61,6 +66,7 @@ DeepSeek Chat Model
 PDF Processing
 PyPDF2
 ReportLab
+
 🧪 Algorithms & Logic Used
 PDF text extraction using PyPDF2
 Prompt Engineering for AI analysis
@@ -68,6 +74,7 @@ AI-assisted resume evaluation
 ATS-style skill matching
 AI-generated recommendation system
 PDF report generation using ReportLab
+
 🗃️ Input Details
 
 The system processes the following inputs:
@@ -82,6 +89,7 @@ Matching Skills
 Missing Skills
 Resume Strengths
 Improvement Suggestions
+
 📊 Result Analysis
 Successfully extracts resume content from PDF documents
 Accurately compares resumes with job descriptions
@@ -89,6 +97,7 @@ Generates ATS-style compatibility score
 Identifies relevant and missing skills
 Provides AI-generated recommendations for resume enhancement
 Produces downloadable professional PDF reports
+
 🚀 How to Run the Project
 Prerequisites
 Python 3.10 or above
@@ -122,9 +131,11 @@ Resume score history tracking
 Multiple resume version comparison
 Cloud deployment using Streamlit Community Cloud
 Integration with LinkedIn profile analysis
+
 🏁 Conclusion
 
 ResumeSense AI provides an intelligent and user-friendly solution for evaluating resumes against job descriptions using Artificial Intelligence. By combining AI-powered analysis with ATS-style feedback, the application helps users identify skill gaps, improve resume quality, and enhance their chances of succeeding in today's competitive job market.
+
 
 👤 Developer Details
 
