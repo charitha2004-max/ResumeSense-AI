@@ -1,4 +1,5 @@
 🎯 ResumeSense AI – AI Resume Analyzer
+
 📌 Project Overview
 
 ResumeSense AI is an AI-powered web application designed to help users evaluate and optimize their resumes against job descriptions.
@@ -13,6 +14,7 @@ The application analyzes uploaded resumes using Artificial Intelligence and prov
 The system assists job seekers in improving their resumes for better compatibility with Applicant Tracking Systems (ATS) and enhances their chances of securing interviews by providing actionable recommendations.
 
 🎯 Objectives
+
 Analyze resumes against job descriptions using Artificial Intelligence.
 Provide ATS-style resume evaluation.
 Identify matching and missing skills.
@@ -50,6 +52,7 @@ Identifies the strongest areas of the resume based on the job description.
 Generates personalized recommendations to improve resume quality and ATS compatibility.
 
 ⚙️ System Workflow
+
 📄 User uploads a Resume in PDF format.
 💼 User pastes the desired Job Description.
 📑 Resume text is extracted using PyPDF2.
@@ -62,31 +65,40 @@ Generates personalized recommendations to improve resume quality and ATS compati
 Streamlit
 ⚙️ Backend
 Python
+
 🤖 AI Service
+
 OpenRouter API
 DeepSeek Chat Model
 📄 PDF Processing
 PyPDF2
 ReportLab
+
 🧪 Algorithms & Logic Used
+
 📄 PDF Text Extraction using PyPDF2
 🧠 Prompt Engineering for AI Analysis
 🤖 AI-Assisted Resume Evaluation
 📊 ATS-Style Skill Matching
 💡 AI-Based Recommendation Generation
 📑 PDF Report Generation using ReportLab
+
 🗃️ Input Details
 
 The application accepts the following inputs:
 
 📄 Resume (PDF)
+
 💼 Job Description
+
 📊 Generated Output
+
 ATS Match Score
 Matching Skills
 Missing Skills
 Resume Strengths
 Improvement Suggestions
+
 📈 Result Analysis
 ✅ Successfully extracts resume content from PDF documents.
 ✅ Accurately compares resumes with job descriptions.
@@ -94,8 +106,10 @@ Improvement Suggestions
 ✅ Identifies relevant and missing skills.
 ✅ Provides AI-generated recommendations.
 ✅ Produces downloadable professional PDF reports.
+
 🚀 How to Run the Project
 📌 Prerequisites
+
 Python 3.10 or above
 OpenRouter API Key
 Required Python Libraries
