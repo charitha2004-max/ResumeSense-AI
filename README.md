@@ -134,33 +134,18 @@ Provides personalized recommendations to improve ATS compatibility.
 
 ```bash
 
-🔮 Future Enhancements
-DOCX Resume Support
-Resume Keyword Optimization
-Resume Comparison
-LinkedIn Integration
-Interactive Charts
-Cloud Deployment
-
-🏁 Conclusion
-
-ResumeSense AI provides an intelligent solution for evaluating resumes against job descriptions using Artificial Intelligence.
-
-By combining ATS-style analysis with AI-generated recommendations, the application helps users improve resume quality and increase their chances of landing interviews.
-
-👨‍💻 Developer
-
-Charitha H K
-
-Technology Stack
-Python
-Streamlit
-OpenRouter API
-DeepSeek AI
-PyPDF2
-ReportLab
 git clone https://github.com/charitha2004-max/ResumeSense-AI.git
 
 cd ResumeSense-AI
+
+pip install -r requirements.txt
+
+Create a .env file
+
+OPENROUTER_API_KEY=your_api_key
+
+Run
+
+streamlit run app.py
 
 pip install -r requirements.txt
