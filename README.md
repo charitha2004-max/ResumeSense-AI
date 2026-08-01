@@ -143,6 +143,69 @@ pip install -r requirements.txt
 Create a .env file
 
 OPENROUTER_API_KEY=your_api_key
+---
+
+## 🔮 Future Enhancements
+
+- 📄 Support for DOCX Resume Uploads
+- 🎯 Resume Keyword Optimization Recommendations
+- 📊 Interactive Skill Comparison Charts
+- 📈 Resume Score History Tracking
+- 🔄 Multiple Resume Version Comparison
+- ☁️ Cloud Deployment using Streamlit Community Cloud
+- 💼 LinkedIn Profile Analysis Integration
+
+---
+
+## 🏁 Conclusion
+
+ResumeSense AI provides an intelligent and user-friendly solution for evaluating resumes against job descriptions using Artificial Intelligence.
+
+By combining **AI-powered analysis** with **ATS-style feedback**, the application helps users:
+
+- ✅ Identify skill gaps
+- 📈 Improve resume quality
+- 🎯 Optimize resumes for Applicant Tracking Systems (ATS)
+- 💼 Increase their chances of securing interviews
+
+The project demonstrates the practical application of **Artificial Intelligence**, **Natural Language Processing**, and **Modern Web Development** to solve real-world career challenges.
+
+---
+
+## 👨‍💻 Developer
+
+**Name:** Charitha H K
+
+**Project Type:** AI-Powered ATS Resume Analyzer
+
+---
+
+## 🛠️ Technology Stack
+
+### 💻 Programming Language
+- Python
+
+### 🌐 Frontend
+- Streamlit
+
+### 🤖 AI Service
+- OpenRouter API
+- DeepSeek Chat
+
+### 📄 PDF Processing
+- PyPDF2
+- ReportLab
+
+### 🔧 Additional Libraries
+- python-dotenv
+- OpenAI SDK
+- Regular Expressions (re)
+
+---
+
+## ⭐ If you found this project useful
+
+Please consider giving this repository a ⭐ on GitHub!
 
 Run
 
