@@ -1,155 +1,158 @@
 🎯 ResumeSense AI – AI Resume Analyzer
-
 📌 Project Overview
 
-ResumeSense AI is an AI-powered web application designed to help users evaluate and optimize their resumes against job descriptions. The application analyzes uploaded resumes using Artificial Intelligence and provides ATS-style feedback, including matching skills, missing keywords, strengths, and improvement suggestions.
+ResumeSense AI is an AI-powered web application designed to help users evaluate and optimize their resumes against job descriptions.
+
+The application analyzes uploaded resumes using Artificial Intelligence and provides ATS-style feedback, including:
+
+✅ Matching Skills
+❌ Missing Skills
+💪 Resume Strengths
+💡 Personalized Improvement Suggestions
 
 The system assists job seekers in improving their resumes for better compatibility with Applicant Tracking Systems (ATS) and enhances their chances of securing interviews by providing actionable recommendations.
 
 🎯 Objectives
-
-To analyze resumes against job descriptions using Artificial Intelligence
-To provide ATS-style resume evaluation
-To identify matching and missing skills
-To generate personalized resume improvement suggestions
-To simplify the resume optimization process for job seekers
+Analyze resumes against job descriptions using Artificial Intelligence.
+Provide ATS-style resume evaluation.
+Identify matching and missing skills.
+Generate personalized resume improvement suggestions.
+Simplify the resume optimization process for job seekers.
 👤 User Features
-Upload resume in PDF format
-Paste any job description
-Analyze resume using AI
-View ATS Match Score
-View Matching Skills
-View Missing Skills
-View Resume Strengths
-Receive AI-generated improvement suggestions
-Download professional PDF analysis report
-
+📄 Upload Resume in PDF format.
+💼 Paste any Job Description.
+🤖 Analyze Resume using AI.
+📊 View ATS Match Score.
+✅ View Matching Skills.
+❌ View Missing Skills.
+💪 View Resume Strengths.
+💡 Receive AI-generated improvement suggestions.
+📥 Download Professional PDF Analysis Report.
 🤖 AI Features
-ATS Resume Analysis
+📊 ATS Resume Analysis
 
-Compares the uploaded resume with the provided job description and evaluates overall compatibility.
+Compares the uploaded resume with the provided job description and evaluates the overall compatibility.
 
-Skill Matching
+✅ Skill Matching
 
-Identifies the skills present in both the resume and the job description.
+Identifies the skills that are present in both the resume and the job description.
 
-Missing Skill Detection
+❌ Missing Skill Detection
 
-Highlights important skills or keywords missing from the resume.
+Highlights important skills or keywords that are missing from the resume.
 
-Resume Strength Analysis
+💪 Resume Strength Analysis
 
-Identifies strong areas within the resume based on the job description.
+Identifies the strongest areas of the resume based on the job description.
 
-AI Suggestions
+💡 AI Suggestions
 
 Generates personalized recommendations to improve resume quality and ATS compatibility.
 
-
 ⚙️ System Workflow
-
-User uploads a resume in PDF format.
-User pastes the desired job description.
-Resume text is extracted using PyPDF2.
-AI model analyzes the resume against the job description.
-ATS score and detailed analysis are generated.
-User views the analysis report.
-User downloads the report as a professional PDF.
-
+📄 User uploads a Resume in PDF format.
+💼 User pastes the desired Job Description.
+📑 Resume text is extracted using PyPDF2.
+🤖 DeepSeek AI analyzes the resume against the job description.
+📊 ATS score and detailed analysis are generated.
+👀 User views the complete analysis report.
+📥 User downloads the report as a professional PDF.
 🏗️ System Architecture
-
-Frontend
+🎨 Frontend
 Streamlit
-Backend
+⚙️ Backend
 Python
-AI Service
+🤖 AI Service
 OpenRouter API
 DeepSeek Chat Model
-PDF Processing
+📄 PDF Processing
 PyPDF2
 ReportLab
-
 🧪 Algorithms & Logic Used
-
-PDF text extraction using PyPDF2
-Prompt Engineering for AI analysis
-AI-assisted resume evaluation
-ATS-style skill matching
-AI-generated recommendation system
-PDF report generation using ReportLab
-
+📄 PDF Text Extraction using PyPDF2
+🧠 Prompt Engineering for AI Analysis
+🤖 AI-Assisted Resume Evaluation
+📊 ATS-Style Skill Matching
+💡 AI-Based Recommendation Generation
+📑 PDF Report Generation using ReportLab
 🗃️ Input Details
 
-The system processes the following inputs:
+The application accepts the following inputs:
 
-Resume (PDF)
-Job Description
-
-The generated analysis includes:
-
+📄 Resume (PDF)
+💼 Job Description
+📊 Generated Output
 ATS Match Score
 Matching Skills
 Missing Skills
 Resume Strengths
 Improvement Suggestions
-
-📊 Result Analysis
-
-Successfully extracts resume content from PDF documents
-Accurately compares resumes with job descriptions
-Generates ATS-style compatibility score
-Identifies relevant and missing skills
-Provides AI-generated recommendations for resume enhancement
-Produces downloadable professional PDF reports
-
+📈 Result Analysis
+✅ Successfully extracts resume content from PDF documents.
+✅ Accurately compares resumes with job descriptions.
+✅ Generates ATS-style compatibility scores.
+✅ Identifies relevant and missing skills.
+✅ Provides AI-generated recommendations.
+✅ Produces downloadable professional PDF reports.
 🚀 How to Run the Project
-
-Prerequisites
+📌 Prerequisites
 Python 3.10 or above
 OpenRouter API Key
 Required Python Libraries
-Steps
-
-Clone the repository.
-
-Navigate to the project folder.
-
-Install dependencies:
-
+▶️ Steps
+1️⃣ Clone the Repository
+2️⃣ Navigate to the Project Folder
+3️⃣ Install Dependencies
 pip install -r requirements.txt
-
-Create a .env file:
-
+4️⃣ Create a .env File
 OPENROUTER_API_KEY=your_api_key
-
-Run the application:
-
+5️⃣ Run the Application
 streamlit run app.py
-
-Open the local Streamlit URL in your browser.
-
+6️⃣ Open the Local Streamlit URL in Your Browser
 🔮 Future Enhancements
-
-Support for DOCX resume uploads
-Resume keyword optimization recommendations
-Interactive skill comparison charts
-Resume score history tracking
-Multiple resume version comparison
-Cloud deployment using Streamlit Community Cloud
-Integration with LinkedIn profile analysis
-
+📄 Support for DOCX Resume Uploads
+🎯 Resume Keyword Optimization
+📈 Interactive Skill Comparison Charts
+📚 Resume Score History Tracking
+🔄 Multiple Resume Version Comparison
+☁️ Cloud Deployment using Streamlit Community Cloud
+🔗 LinkedIn Profile Analysis Integration
 🏁 Conclusion
 
-ResumeSense AI provides an intelligent and user-friendly solution for evaluating resumes against job descriptions using Artificial Intelligence. By combining AI-powered analysis with ATS-style feedback, the application helps users identify skill gaps, improve resume quality, and enhance their chances of succeeding in today's competitive job market.
+ResumeSense AI provides an intelligent and user-friendly solution for evaluating resumes against job descriptions using Artificial Intelligence.
 
+By combining AI-powered analysis with ATS-style feedback, the application helps users identify skill gaps, improve resume quality, and enhance their chances of succeeding in today's competitive job market.
 
 👤 Developer Details
+👨‍💻 Developer
 
-Developer:
 Charitha H K
 
-Project Type:
+📂 Project Type
+
 AI-Powered Resume Analyzer
 
-Technology Stack:
-Python, Streamlit, OpenRouter API, DeepSeek AI, PyPDF2, ReportLab
+💻 Technology Stack
+Python
+Streamlit
+OpenRouter API
+DeepSeek AI
+PyPDF2
+ReportLab
+⭐ Project Highlights
+
+✅ AI-Powered Resume Analysis
+
+✅ ATS Score Generation
+
+✅ Intelligent Skill Matching
+
+✅ Missing Skill Identification
+
+✅ Personalized Resume Suggestions
+
+✅ Professional PDF Report Generation
+
+✅ Interactive Streamlit Interface
+
+✅ Modern LLM Integration using DeepSeek AI
